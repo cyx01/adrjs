@@ -1,7 +1,7 @@
 :jbake-title: Introduction and Goals
 :jbake-type: page_toc
 :jbake-status: published
-:jbake-menu: arc42
+:jbake-menu: architecture
 :jbake-order: 1
 :filename: /chapters/01_introduction_and_goals.adoc
 ifndef::imagesdir[:imagesdir: ../../images]

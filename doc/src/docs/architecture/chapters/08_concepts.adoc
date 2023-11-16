@@ -1,7 +1,7 @@
 :jbake-title: Cross-cutting Concepts
 :jbake-type: page_toc
 :jbake-status: published
-:jbake-menu: arc42
+:jbake-menu: architecture
 :jbake-order: 8
 :filename: /chapters/08_concepts.adoc
 ifndef::imagesdir[:imagesdir: ../../images]

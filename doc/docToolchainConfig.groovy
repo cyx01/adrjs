@@ -16,9 +16,7 @@ inputPath = 'src/docs';
 // pdfThemeDir = './src/docs/pdfTheme'
 
 inputFiles = [
-        //[file: 'doctoolchain_demo.adoc',       formats: ['html','pdf']],
-        //[file: 'arc42-template.adoc',    formats: ['html','pdf']],
-	[file: 'arc42/arc42.adoc', formats: ['html','pdf']],
+	[file: 'architecture/index.adoc', formats: ['html','pdf']],
 	/** inputFiles **/
 ]
 
@@ -88,40 +86,37 @@ microsite.with {
     siteFolder = '../site'
 
     // the title of the microsite, displayed in the upper left corner
-    title = '##site-title##'
+    title = 'ADRjs'
     // the next items configure some links in the footer
     //
     // contact eMail
     // example: mailto:bert@example.com
-    footerMail = '##footer-email##'
+    //footerMail = '##footer-email##'
     //
     // twitter account url
-    footerTwitter = '##twitter-url##'
+    //footerTwitter = '##twitter-url##'
     //
     // Stackoverflow QA
-    footerSO = '##Stackoverflow-url##'
+    //footerSO = '##Stackoverflow-url##'
     //
     // Github Repository
-    footerGithub = '##Github-url##'
+    footerGithub = 'https://github.com/cyx01/adrjs.git'
     //
     // Slack Channel
-    footerSlack = '##Slack-url##'
+    //footerSlack = '##Slack-url##'
     //
     // Footer Text
     // example: <small class="text-white">built with docToolchain and jBake <br /> theme: docsy</small>
     footerText = '<small class="text-white">built with <a href="https://doctoolchain.org">docToolchain</a> and <a href="https://jbake.org">jBake</a> <br /> theme: <a href="https://www.docsy.dev/">docsy</a></small>'
     //
-    // site title if no other title is given
-    title = 'docToolchain'
-    //
     // the url to create an issue in github
     // Example: https://github.com/docToolchain/docToolchain/issues/new
-    issueUrl = '##issue-url##'
+    issueUrl = 'https://github.com/cyx01/adrjs/issues/new'
     //
     // the base url for code files in github
     // Example: https://github.com/doctoolchain/doctoolchain/edit/master/src/docs
     branch = System.getenv("DTC_PROJECT_BRANCH")?:'-'
-    gitRepoUrl = '##git-repo-url##'
+    gitRepoUrl = 'https://github.com/cyx01/adrjs/edit/main/doc/src/docs'
 
     //
     // the location of the landing page

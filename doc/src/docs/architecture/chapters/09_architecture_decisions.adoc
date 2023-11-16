@@ -1,7 +1,7 @@
 :jbake-title: Architecture Decisions
 :jbake-type: page_toc
 :jbake-status: published
-:jbake-menu: arc42
+:jbake-menu: architecture
 :jbake-order: 9
 :filename: /chapters/09_architecture_decisions.adoc
 ifndef::imagesdir[:imagesdir: ../../images]

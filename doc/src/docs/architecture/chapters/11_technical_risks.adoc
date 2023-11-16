@@ -1,7 +1,7 @@
 :jbake-title: Risks and Technical Debts
 :jbake-type: page_toc
 :jbake-status: published
-:jbake-menu: arc42
+:jbake-menu: architecture
 :jbake-order: 11
 :filename: /chapters/11_technical_risks.adoc
 ifndef::imagesdir[:imagesdir: ../../images]

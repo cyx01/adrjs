@@ -1,7 +1,7 @@
 :jbake-title: Runtime View
 :jbake-type: page_toc
 :jbake-status: published
-:jbake-menu: arc42
+:jbake-menu: architecture
 :jbake-order: 6
 :filename: /chapters/06_runtime_view.adoc
 ifndef::imagesdir[:imagesdir: ../../images]
