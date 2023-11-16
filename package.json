@@ -1,0 +1,22 @@
+{
+  "name": "adrjs",
+  "version": "1.0.0",
+  "description": "Tool to handle ADR in Asciidoc for ARC42",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyx01/adrjs.git"
+  },
+  "author": "Patrick Majewski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cyx01/adrjs/issues"
+  },
+  "homepage": "https://github.com/cyx01/adrjs#readme"
+}
