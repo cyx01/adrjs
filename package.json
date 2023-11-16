@@ -8,6 +8,7 @@
   },
   "scripts": {
     "docs:microsite": "cd ./doc && ./dtcw generateSite",
+    "docs:microsite:open": "npx ws --port 8069 --static.index docs.redirect.html --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/cyx01/adrjs/issues"
   },
-  "homepage": "https://github.com/cyx01/adrjs#readme"
+  "homepage": "https://github.com/cyx01/adrjs#readme",
+  "dependencies": {
+    "local-web-server": "^5.3.0"
+  }
 }
