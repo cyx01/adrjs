@@ -12,7 +12,7 @@ ifndef::imagesdir[:imagesdir: ../../images]
 
 [[section-system-scope-and-context]]
 == System Scope and Context
-
+The ADR should be stored as code beside the project source.
 
 
 
@@ -27,7 +27,7 @@ ifndef::imagesdir[:imagesdir: ../../images]
 
 === Technical Context
 
-
+image::technical_context.dio.png[]
 
 **<Diagram or Table>**
 

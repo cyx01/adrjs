@@ -12,7 +12,7 @@ ifndef::imagesdir[:imagesdir: ../../images]
 
 [[section-introduction-and-goals]]
 == Introduction and Goals
-
+We need a tool to manage ADRs within the arc42 template with Asciidoc or in general with Markdown.
 
 
 === Requirements Overview
@@ -24,12 +24,4 @@ ifndef::imagesdir[:imagesdir: ../../images]
 
 
 === Stakeholders
-
-
-
-[options="header",cols="1,2,2"]
-|===
-|Role/Name|Contact|Expectations
-| _<Role-1>_ | _<Contact-1>_ | _<Expectation-1>_
-| _<Role-2>_ | _<Contact-2>_ | _<Expectation-2>_
-|===
+Architects and or developer who want to document their architectual decissions as code
