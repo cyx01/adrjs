@@ -1,0 +1,31 @@
+name: Deploy Documentation
+
+on:
+  push:
+    branches:
+      - main  # Set a branch name to trigger deployment
+  pull_request:
+  workflow_dispatch: {}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    env:
+      DTC_HEADLES: true
+    steps:
+      - uses: actions/checkout@v3
+      - name: setup
+        run: chmod +x dtcw
+      - name: generateSite
+        run: ./doc/dtcw generateSite
+      - name: copyToPublic
+        run: cp -r ./doc/build/microsite/output ./public
+      - name: Push Files to Pmdev
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+            server: w00fddca.kasserver.com
+            username: f0162fc2
+            password: ${{ secrets.ftp_password }}
+            loacl-dir: ./public
