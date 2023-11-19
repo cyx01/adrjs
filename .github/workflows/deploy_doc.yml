@@ -17,9 +17,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: setup
-        run: chmod +x dtcw
+        working-directory: ./doc
+        run: chmod +x ./dtcw
       - name: generateSite
-        run: ./doc/dtcw generateSite
+        working-directory: ./doc
+        run: ./dtcw generateSite
       - name: copyToPublic
         run: cp -r ./doc/build/microsite/output ./public
       - name: Push Files to Pmdev
